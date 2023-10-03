@@ -1,0 +1,34 @@
+{
+  "tests": [
+    {
+      "name": "Test cantidades",
+      "setup": "",
+      "run": "gradle test --tests *TestCantidades",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": null
+    },
+    {
+      "name": "Test funcionalidades",
+      "setup": "",
+      "run": "gradle test --tests *TestFuncionalidades",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": null
+    },
+    {
+      "name": "Test constructores",
+      "setup": "",
+      "run": "gradle test --tests *TestConstructores",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": null
+    }
+  ]
+}
