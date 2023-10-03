@@ -27,6 +27,7 @@ public class Vehiculo {
 		this.fabricante = fabricante;
 		todosLosVehiculos.add(this);
 		fabricante.sumContador();
+		CantidadVehiculos++;
 	}
 	
 	public static String vehiculosPorTipo() {
