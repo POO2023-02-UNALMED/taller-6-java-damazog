@@ -27,7 +27,7 @@ public class Pais {
 		contador++;
 	}
 	
-	public static String paisMasVendedor() {
+	public static Pais paisMasVendedor() {
 	    
 		Map<Pais, Integer> ventasPorPais = new HashMap<>();
 
@@ -58,6 +58,6 @@ public class Pais {
 	        }
 	    }
 
-	    return paisMasVendedor.getNombre();
+	    return paisMasVendedor;
 	}
 }

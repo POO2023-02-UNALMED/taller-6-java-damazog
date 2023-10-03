@@ -41,7 +41,7 @@ public class Fabricante {
 		this.pais.sumContador();
 	}
 	
-	public static String fabricaMayorVentas() {
+	public static Fabricante fabricaMayorVentas() {
 	    
 	    Map<Fabricante, Integer> ventasPorFabricante = new HashMap<>();
 
@@ -72,7 +72,7 @@ public class Fabricante {
 	        }
 	    }
 
-	    return fabricaMayorVentas.getNombre();
+	    return fabricaMayorVentas;
 	}
 
 }
